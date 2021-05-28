@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: #2ddf5c;
+    background: grey;
     padding: 0.5rem 1rem;
     z-index: 1;
   }
@@ -36,18 +36,16 @@
   }
   
   .main-header__brand {
-    color: #0e4f1f;
+    color: grey;
     text-decoration: none;
     font-weight: bold;
     height: 2.5rem;
-    /* width: 20px; */
     display: inline-block;
     vertical-align: middle;
   }
   
   .main-header__brand img {
     height: 100%;
-    /* width: 100%; */
   }
   
   .main-nav {
@@ -68,15 +66,15 @@
   .main-nav__item a,
   .mobile-nav__item a {
     text-decoration: none;
-    color: #0e4f1f;
+    color: darkred;
     font-weight: bold;
     padding: 0.2rem 0;
   }
   
   .main-nav__item a:hover,
   .main-nav__item a:active {
-    color: white;
-    border-bottom: 5px solid white;
+    color: black;
+    border-bottom: 5px solid black;
   }
   
   .main-nav__item--cta a,
