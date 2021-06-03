@@ -90,7 +90,7 @@ main {
   
   @media (min-width: 40rem) {
     main {
-      margin-top: 7rem;
+      margin-top: 7.5rem;
     }
 
     .toggle-button {
@@ -119,6 +119,7 @@ main {
     color: white;
     text-align: center;
     padding: 0.5rem;
+    margin-bottom: 1rem;
     width: 100%;
     border-radius: 1rem;
   }
@@ -154,6 +155,25 @@ main {
 
   .zona__val h2 {
     font-size: 1rem;
+  }
+
+  @media (min-width: 40rem) {
+    .zona__fi {
+      display: inline-block;
+      width: 350px;
+      text-align: center;
+      margin-right: 0.5rem;
+    }
+
+    .zona__val {
+      display: inline-block;
+      width: 350px;
+      text-align: center;
+    }
+
+    #zone {
+      text-align: center;
+    }
   }
 
   .main-footer {
