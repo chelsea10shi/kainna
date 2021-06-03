@@ -114,6 +114,10 @@ main {
     text-align: center;
   }
 
+  #zone {
+    margin-left: 0.4rem;
+  }
+
   .zona__fi {
     background-color: orange;
     color: white;
@@ -121,7 +125,11 @@ main {
     padding: 0.5rem;
     margin-bottom: 1rem;
     width: 100%;
-    border-radius: 1rem;
+    border-radius: 5rem;
+  }
+
+  .zona__fi img {
+    width: 260px;
   }
 
   .zona__fi h1 {
@@ -142,12 +150,17 @@ main {
     text-align: center;
     padding: 0.5rem;
     width: 100%;
-    border-radius: 1rem;
+    border-radius: 5rem;
+  }
+
+  .zona__val img {
+    padding-top: 0.8rem;
   }
 
   .zona__val h1 {
     font-weight: bold;
     font-size: 2rem;
+    margin-top: 0.8rem;
     margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
